@@ -1,10 +1,14 @@
+$fontRoboto: 'Roboto', sans-serif;
+
 @media (max-width: 480px){
+    //variables
     .mt-30{
         margin-top: 20px;
     }
     .mb-30{
         margin-bottom: 20px;
     }
+    //header
     header{
         a{
             img{
@@ -37,10 +41,10 @@
     .navbar-toggler .icon-bar+.icon-bar {
         margin-top: 4px;
     }
-
     .xs-hidden{
         display: none;
     }
+    //banner
     .cover-background {
         background-size: auto !important;
         min-height: 130px;
@@ -48,18 +52,18 @@
         background-position: 70% 20% !important;
     }
 
-    
     .alt-font{
+        font-family: $fontRoboto;
         font-size: 40px;
         margin-top: 45px;
     }
-
-    section{
-        padding: 10px 0;
-        span{
-            display: none;
-        }
+    .text-left{
+        font-family: $fontRoboto;
+        font-size: 30px;
+        margin-top: 45px; 
     }
+    
+    //content
     .search{
         float: none;
         text-align: center;
@@ -75,6 +79,11 @@
 
     .load-more{
         font-size: 18px;  
+    }
+    
+    section{
+        padding: 10px 0;
+        
     }
 
     footer{

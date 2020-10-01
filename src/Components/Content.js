@@ -26,7 +26,7 @@ class Content extends Component {
                 <div className="row">
                     <div className="col-lg-12 col-xs-12 mb-30">
                         <div className="search">
-                            <span>Search By #</span> 
+                            <span class="xs-hidden">Search By #</span> 
                             <input type="text" id="email" name="email" className="input-bg"></input>
                         </div>
                         
