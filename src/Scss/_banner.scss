@@ -1,0 +1,20 @@
+$urlimage: '../../Dist/images/banner.png';
+$fontRoboto: 'Roboto', sans-serif;
+
+.cover-background {
+    position: relative !important; 
+    background-size: cover !important; 
+    overflow: hidden !important; 
+    background-position: 100% 100% !important; 
+    background-repeat: no-repeat !important;
+    background-image: url($urlimage);   
+}
+
+.alt-font{
+    font-family: $fontRoboto;
+    font-size: 60px;
+    font-weight: 'bold';
+    color: #ffffff;
+}
+
+
